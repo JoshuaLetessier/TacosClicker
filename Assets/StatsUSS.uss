@@ -1,0 +1,25 @@
+/* Conteneur principal */
+#root {
+    width: 100%;
+    height: 100%;
+    position: relative; /* Permet de positionner les enfants avec des coordonnées absolues */
+}
+
+/* Style pour les textes en haut à droite */
+.text {
+    position: absolute; /* Positionnement absolu dans le conteneur parent */
+    top: 10px; /* Distance depuis le haut */
+    right: 10px; /* Distance depuis la droite */
+    color: white; /* Couleur du texte */
+    font-size: 16px; /* Taille de police */
+    text-align: right; /* Aligner le contenu du texte à droite */
+}
+
+/* Optionnel : boîte pour entourer les textes */
+.text-box {
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    padding: 8px; /* Espacement intérieur */
+    border-radius: 4px; /* Coins arrondis */
+    max-width: 300px; /* Limiter la largeur */
+    text-align: right; /* Texte aligné à droite */
+}

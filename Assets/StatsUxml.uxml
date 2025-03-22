@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/StatsUSS.uss?fileID=7433441132597879392&amp;guid=357f09660e3eb6a47b33cae940d1954e&amp;type=3#StatsUSS" />
+    <ui:VisualElement name="root" style="justify-content: flex-start; align-items: auto; flex-direction: column; align-self: auto;">
+        <ui:Label text="Producted Tacos :" name="ProductedTacos" class="text text-box" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Mexicana.ttf?fileID=12800000&amp;guid=055673d9a3d731e4a96b86f75325006d&amp;type=3#Mexicana&quot;);" />
+        <ui:Label text="Stock of Tacos :" name="StockTacos" class="text text-box" style="top: 50px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Mexicana.ttf?fileID=12800000&amp;guid=055673d9a3d731e4a96b86f75325006d&amp;type=3#Mexicana&quot;);" />
+        <ui:Label text="Demand per price :" name="Demandperprice" class="text text-box" style="top: 90px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Mexicana.ttf?fileID=12800000&amp;guid=055673d9a3d731e4a96b86f75325006d&amp;type=3#Mexicana&quot;);" />
+    </ui:VisualElement>
+</ui:UXML>
